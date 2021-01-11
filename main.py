@@ -9,6 +9,7 @@ def start_game():
     ]
 
     secret_word = choice(words_bank)
+
     # print(secret_word)
 
     gamer_word = ['*'] * len(secret_word)
